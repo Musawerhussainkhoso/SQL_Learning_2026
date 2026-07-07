@@ -36,3 +36,15 @@ WHERE customer_id = 3;
 -- 2. Delete the record of customer with customer_id 5
 DELETE FROM customers
 WHERE customer_id = 5;
+
+-- Delete the customer whose city is Quetta.
+DELETE FROM  customers
+WHERE city = "Quetta";
+
+-- Delete all customers whose account type is Savings.
+DELETE FROM customers
+WHERE account_type = "Savings";
+
+-- Delete the customer whose balance is less than 50000.
+DELETE FROM customers
+WHERE balance < 50000;
