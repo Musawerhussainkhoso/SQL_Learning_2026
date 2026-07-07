@@ -33,3 +33,10 @@ WHERE condition;
 UPDATE customers
 SET city = "Lahore"
 WHERE customer_id = 1;
+
+-- Chnage the acc type and balance of hamza
+UPDATE customersSET account_type = "Current",
+balance = 600000
+WHERE customer_id = 5;
+
+
