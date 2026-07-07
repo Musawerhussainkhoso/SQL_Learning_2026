@@ -35,8 +35,20 @@ SET city = "Lahore"
 WHERE customer_id = 1;
 
 -- Chnage the acc type and balance of hamza
-UPDATE customersSET account_type = "Current",
+UPDATE customers
+SET account_type = "Current",
 balance = 600000
 WHERE customer_id = 5;
 
+-- Change Sara Ahmed’s phone number to: 03210000000
+UPDATE customers
+SET phone = "03210000000"
+WHERE customer_id = 2;
 
+/*
+A customer Zain Malik upgraded his account from Savings to Business.
+Update his account_type.
+*/
+UPDATE customers
+SET account_type = "Business"
+WHERE customer_id = 7;
